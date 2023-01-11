@@ -16,3 +16,5 @@ You should see the install progress at the bottom of your page, as shown below. 
 When you've finished, if everything has gone correct, you should see something similar to what is pictured below! If you do, this means you have completed Step 1! On to Step 2!
    
 ![Image](vscodedone.png)
+
+## **Step 2: Remotely Connecting**
