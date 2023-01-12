@@ -42,3 +42,7 @@ What are some of the commands I demo'd and what do they do?
 **'ls'** - this shows the files/folders in the current directory.   
 **'cd [folder-name]'** - this sets the current directory to the folder you specified.   
 **'cd ..'** - this sets the current directory to the parent of the director you were in.    
+    
+Try some of these commands, and maybe look up some other ones you can try as well! Once you have experimented a bit, you are done with this tutorial! Great job, and I wish you a lot of fun playing around with coding!   
+   
+-Anthony :)
