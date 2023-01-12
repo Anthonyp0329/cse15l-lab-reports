@@ -27,7 +27,7 @@ From here, we will type a command into the terminal to begin remote access.
 Here is the command I used:   
 `ssh cs15lwi23amo@ieng6.ucsd.edu`
    
-After entering the command, you may get prompted with a message asking for permission. Just type 'yes' and press enter. After this, you will get prompted for your password. Type it in, and if you connect, you should see something like this (pictured below)! If you do, you are finished with Step 2!   
+After entering the command, you may get prompted with a message asking for permission. Just type 'yes' and press enter. After this, the program will ask for your password. Type it in, and if you connect, you should see something like this (pictured below)! If you do, you are finished with Step 2!   
    
 ![Image](connected.png)
    
