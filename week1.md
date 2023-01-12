@@ -41,7 +41,8 @@ What are some of the commands I demo'd and what do they do?
 **'pwd'** - this shows the absolute path to the directory you are in right now.   
 **'ls'** - this shows the files/folders in the current directory.   
 **'cd [folder-name]'** - this sets the current directory to the folder you specified.   
-**'cd ..'** - this sets the current directory to the parent of the directory you were in before.    
+**'cd ..'** - this sets the current directory to the parent of the directory you were in before.  
+**'exit'** - this exits the virtual environment and closes the connection to ieng6.   
     
 Try some of these commands, and maybe look up some other ones you can try as well! Once you have experimented a bit, you are done with this tutorial! Great job, and I wish you a lot of fun playing around with coding!   
    
