@@ -32,3 +32,13 @@ From here, you may get prompted with a message asking for permission. Just type 
 ![Image](connected.png)
    
 ## Step 3: Trying Some Commands
+Now that we are logged in, we can try some commands to play around with our new environment! Below is a screenshot of some of the commands I used and their outputs:
+    
+![Image](commands.png)
+    
+What are some of the commands I demo'd and what do they do?   
+   
+**'pwd'** - this shows the absolute path to the directory you are in right now.   
+**'ls'** - this shows the files/folders in the current directory.   
+**'cd [folder-name]'** - this sets the current directory to the folder you specified.   
+**'cd ..'** - this sets the current directory to the parent of the director you were in.    
