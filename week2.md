@@ -84,5 +84,6 @@ public void testReversed2() {
 }
 ~~~
    
-Here's what occurred when I ran these tests with JUnit:   
+Here's what occurred when I ran these tests with JUnit:  
+
 ![JUnit-Output](junit-output.png)
