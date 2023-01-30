@@ -45,3 +45,5 @@ class StringServer {
 It's hard to tell just off looking at the code exactly what the program is doing, but no worries, here are some examples of me using it along with explanations of what is going on in the program: 
     
 ![add-Hello](add-search-hello.png)
+    
+When I type in the link http://localhost:3000/add-search?s=Hello, the program goes to the handleRequest method (which is called whenever the page is loaded or reloaded). The current url is passed in to the handleRequest method when it runs. The method first checks with the url path contains 'add-search', which it indeed does, so it goes inside the if statement. Then, it splits the query to determine what the user is trying to add to the string that will be displayed on the page. 
