@@ -44,4 +44,4 @@ class StringServer {
     
 It's hard to tell just off looking at the code exactly what the program is doing, but no worries, here are some examples of me using it along with explanations of what is going on in the program: 
     
-![add-Hello]()
+![add-Hello](add-search-hello.png)
