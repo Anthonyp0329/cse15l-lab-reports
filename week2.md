@@ -60,3 +60,26 @@ Here's another example:
 This time, mainString isn't empty, it has the 'Hello' from earlier. The method goes through the same logic, except this time the argument passed into the method is the new url containing the 'How Are You?' string in it.   
 
 Since the url contains 'add-search', it appends the 'How Are You?' to mainString, and after returning mainString it now displays the 'Hello' as well as the 'How Are You?'.
+    
+## **Part 2: Debugging**
+Here's an example of me testing a method, finding the bugs in it, and fixing them! This method is meant to take in an array, and return a new array that is equivalent to the old array reversed.    
+    
+Here's the tests I ran to see whether it worked properly:   
+
+*Testing whether an empty array worked fine:*
+~~~
+@Test
+public void testReversed() {
+   int[] input1 = { };
+   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+}
+~~~
+    
+*Testing whether it works for an array with elements.*
+~~~
+@Test
+public void testReversed2() {
+   int[] input = {1,2,3,4};
+   assertArrayEquals(new int[]{4,3,2,1},ArrayExamples.reversed(input));
+}
+~~~
