@@ -46,4 +46,9 @@ It's hard to tell just off looking at the code exactly what the program is doing
     
 ![add-Hello](add-search-hello.png)
     
-When I type in the link http://localhost:3000/add-search?s=Hello, the program goes to the handleRequest method (which is called whenever the page is loaded or reloaded). The current url is passed in to the handleRequest method when it runs. The method first checks with the url path contains 'add-search', which it indeed does, so it goes inside the if statement. Then, it splits the query to determine what the user is trying to add to the string that will be displayed on the page. 
+When I type in the link http://localhost:3000/add-search?s=Hello, the program goes to the handleRequest method (which is called whenever the page is loaded or reloaded). The relevant argument is the current url, which is passed in to the handleRequest method when it runs.   
+
+The method first checks with the url path contains 'add-search', which it indeed does, so it goes inside the if statement. Then, it splits the query to determine what the user is trying to add to the string that will be displayed on the page. It then appends the string the user is trying to add to mainString, along with a new line in order to separate each new addition.    
+
+(mainString holds the value of all the strings that have been added so far, and is added to each time the user adds anything).   
+If the url path doesn't contains 'add-search', the method simply returns '404 Not Found!' as the path is invalid.
