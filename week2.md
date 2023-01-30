@@ -75,7 +75,7 @@ public void testReversed() {
 }
 ~~~
     
-*Testing whether it works for an array with elements.*
+*Testing whether it works for an array with elements:*
 ~~~
 @Test
 public void testReversed2() {
@@ -83,3 +83,6 @@ public void testReversed2() {
    assertArrayEquals(new int[]{4,3,2,1},ArrayExamples.reversed(input));
 }
 ~~~
+   
+Here's what occurred when I ran these tests with JUnit:   
+![JUnit-Output](junit-output.png)
