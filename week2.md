@@ -87,3 +87,35 @@ public void testReversed2() {
 Here's what occurred when I ran these tests with JUnit:  
 
 ![JUnit-Output](junit-output.png)
+   
+From this output, we can tell that the method works when the input array is empty, but doesn't work when the array has elements. In fact, instead of the new reversed array starting with a 4, it started with a 0. Let's examine the code to find a possible reason as to why the return array has a 0 in it.
+   
+~~~
+static int[] reversed(int[] arr) {
+   int[] newArray = new int[arr.length];
+   for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+   }
+   return arr;
+}
+~~~
+The only variable containing any zeros is newArray, as when any int array is instantiated it is set with all 0 values. This means the lines containing newArray are likely to be the issue. If we look at the line where we set the individual elements of arr[i] to values of newArray, it becomes clear why an array containing zeros is being returned. This leads us to this fix:
+
+~~~
+static int[] reversed(int[] arr) {
+   int[] newArray = new int[arr.length];
+   for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+   }
+   return newArray;
+}
+~~~
+
+By instead setting the values of newArray to elements of arr, we are keeping the values of arr and simply reversing them. Thus, newArray will contain the values of arr in reverse, and returning newArray will yield the correct output! We've fixed the bug!
+     
+## **Part 2: What I Took Away**
+Pretty much most of Lab 2 was new to me, as I had never made a web server with a Java program. It was really cool for me to learn how to take requests based on the url input and do things with the program! Implementing the search engine in week 2's lab was an awesome learning experience for me, and it was cool to have my program work on the web, as I knew if I hosted it anyone could run it! I didn't really know it was even possible to get a Java program to work as a web server, but now that I not only know its possible but also know how to do it I'm excited for further experimenation.   
+
+Well, that concludes the lab report! Thanks for reading.
+
+-Anthony :)
