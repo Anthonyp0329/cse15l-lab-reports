@@ -99,7 +99,7 @@ static int[] reversed(int[] arr) {
    return arr;
 }
 ~~~
-The only variable containing any zeros is newArray, as when any int array is instantiated it is set with all 0 values. This means the lines containing newArray are likely to be the issue. If we look at the line where we set the individual elements of arr[i] to values of newArray, it becomes clear that since the elements of arr are being set to elements of newArray arr just becomes an array of zeros. This leads us to this fix:
+The only variable containing any zeros is newArray, as when any int array is instantiated it is set with all 0 values. This means the lines containing newArray are likely to be the issue. If we look at the line where we set the individual elements of arr to values of newArray, it becomes clear that since the elements of arr are being set to elements of newArray arr just becomes an array of zeros. This leads us to this fix:
 
 ~~~
 static int[] reversed(int[] arr) {
