@@ -1,4 +1,4 @@
-# Week 2 Lab Report
+# Week 3 Lab Report
 Today's topic: Servers and Bugs!   
 We will be making a **web server** and doing some **debugging**. Woohoo! 
    
