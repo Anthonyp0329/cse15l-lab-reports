@@ -8,7 +8,7 @@ and win the class competition!
 ## Step 4 ##
 Step 4 was the only step I didn't paste in. Here's what I did to run this step:   
 
-Keys pressed: <up><enter>
+Keys pressed: ```<up><enter>```
   
 The command to login to my account on the ieng6 server, ```ssh cs15lwi23amo@ieng6.ucsd.edu```, was 1 up in the search history, so I 
 pressed the up arrow once to access it. When I entered this command, because I set up SSH keys for ieng6 during the lab, it automatically
@@ -24,7 +24,7 @@ to copy all the commands. Here's a screenshot of the Google Doc:
 
 To perform the steps: 
     
-Keys pressed: <command-v>
+Keys pressed: ```<command-v>```
 
 Since all the commands were in my clipboard, this pasted all the commands in and ran them automatically in my terminal.
     
