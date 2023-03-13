@@ -81,5 +81,11 @@ I then went back to my own terminal, and made a script called **fast_script.sh**
 ssh cs15lwi23amo@ieng6.ucsd.edu "run_all.sh"
 ```
 
+Then, I ran ```bash_script.sh``` and watched the magic happen :). Here's what my terminal showed: 
 
+![Correct Script](correct_script.png)
+
+This ran all the appropriate commands inside my server account, and even kept me in my terminal, with only one command! Now, I believe I've done the steps as fast as possible. Automation central :)!
+
+Thanks for reading!! -Anthony
 
