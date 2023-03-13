@@ -85,7 +85,14 @@ Then, I ran ```bash_script.sh``` and watched the magic happen :). Here's what my
 
 ![Correct Script](correct_script.png)
 
-This ran all the appropriate commands inside my server account, and even kept me in my terminal, with only one command! Now, I believe I've done the steps as fast as possible. Automation central :)!
+This ran all the appropriate commands inside my server account, and even kept me in my terminal, with only one command! We can also check
+that this all actually worked and pushed the changes to github by checking github itself:
+
+![Github](github.png)
+
+As we can see, the commit "yay" appears, meaning everything worked!!
+
+Now, I believe I've done the steps as fast as possible. Automation central :)!
 
 Thanks for reading!! -Anthony
 
